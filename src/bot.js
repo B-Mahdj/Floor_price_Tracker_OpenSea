@@ -40,7 +40,7 @@ client.on('ready', async () => {
       console.log(floor_price);
     });
 
-    const nickname = `FP\: ${floor_price} SOL`;
+    const nickname = `FP\: ${floor_price} ETH`;
     console.log(nickname);
     guild.me.setNickname(nickname);
   }, MILLISECONDES_BEFORE_REFRESH)
